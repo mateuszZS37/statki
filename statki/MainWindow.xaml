@@ -1,0 +1,47 @@
+﻿<Window x:Class="statki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:statki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="516" Width="800">
+    <StackPanel>
+    <DockPanel  Margin="10" LastChildFill="False">
+        <Label Content="Wstaw statki" DockPanel.Dock="Top" FontSize="30"/>
+
+        <Grid  Height="300" Width="300" DockPanel.Dock="Left" Margin="20,0,0,0" x:Name="grid1" >
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+        </Grid>
+        <Grid Background="Aqua" Height="300" Width="300" DockPanel.Dock="Right" Margin="0,0,20,0" Visibility="Hidden"/>
+    </DockPanel>
+        <StackPanel Orientation="Horizontal" Height="100" HorizontalAlignment="Center">
+            <Label Name="countOfShips"/>
+            <Label Content="Kliknij początek i koniec"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
