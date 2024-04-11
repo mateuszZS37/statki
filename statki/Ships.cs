@@ -10,5 +10,7 @@ namespace statki
     {
         public int length { get; set; }
         public int count { get; set; }
+        public string posittionA { get; set; }
+        public string posittionB { get; set; }
     }
 }

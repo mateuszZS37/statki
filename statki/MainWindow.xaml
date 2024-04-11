@@ -39,7 +39,7 @@
         </Grid>
         <Grid Background="Aqua" Height="300" Width="300" DockPanel.Dock="Right" Margin="0,0,20,0" Visibility="Hidden"/>
     </DockPanel>
-        <StackPanel Orientation="Horizontal" Height="100" HorizontalAlignment="Center">
+        <StackPanel Orientation="Horizontal" Height="100" HorizontalAlignment="Center" Name="panel">
             <Label Name="countOfShips"/>
             <Label Content="Kliknij początek i koniec"/>
         </StackPanel>
